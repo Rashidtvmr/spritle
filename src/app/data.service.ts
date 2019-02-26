@@ -1,6 +1,7 @@
 import { Injectable, Input } from '@angular/core';
 import {ChangeDetectionStrategy, Component} from '@angular/core';
-import * as faker from 'faker';
+//import * as faker from 'faker';
+var faker=require('faker'); 
 @Injectable({
   providedIn: 'root'
 })
